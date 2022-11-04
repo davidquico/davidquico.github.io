@@ -1,3 +1,17 @@
-h1 {
-    text-align: end;
-}
+body {margin:0;
+    padding:0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    }
+    #arriba{margin:0;
+    padding:0;
+    border-bottom:#0000ff solid thin;
+    }
+    #centro {width:100%;
+        margin:0;
+        padding:0;
+        min-width:35em;
+        }
+    #izq {width:20%;
+            float:left;
+            background-color:#CCCCCC;
+    }
