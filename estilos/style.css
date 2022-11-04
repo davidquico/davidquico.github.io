@@ -4,7 +4,7 @@ body {margin:0;
     }
     #arriba{margin:0;
     padding:0;
-    border-bottom:#0000ff solid thin;
+    border-bottom:#ff0000 solid thin;
     }
     #centro {width:100%;
         margin:0;
@@ -13,5 +13,5 @@ body {margin:0;
         }
     #izq {width:20%;
             float:left;
-            background-color:#CCCCCC;
+            background-color:#e28b8b;
     }
