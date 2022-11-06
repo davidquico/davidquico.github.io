@@ -1,17 +1,22 @@
-body {margin:0;
-    padding:0;
+body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     }
-    #arriba{margin:0;
-    padding:0;
+
+#arriba {
+    height: 10%;
+    background-color: #00ffff;
     border-bottom:#ff0000 solid thin;
     }
-    #centro {width:100%;
-        margin:0;
-        padding:0;
-        min-width:35em;
-        }
-    #izq {width:20%;
-            float:left;
-            background-color:#e28b8b;
+
+#centro {
+    height: 60%;
+    width: 70%;
+    background-color: #dedede;
+    }
+
+#izq {
+    width:20%;
+    float:left;
+    background-color:#e28b8b;
+    height: 90%;
     }
