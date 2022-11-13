@@ -1,7 +1,26 @@
-#titulos {
-    @font-face {
-        font-family: 'Quicksand', sans-serif;
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
-        font-family: 'Zen Kaku Gothic Antique', sans-serif;
+body {
+    background-color: #ffffff;
+}   
+
+div.cabecera {
+    background-color: #000000;
+    position: sticky;
+    z-index: 100;
+    color:#ffffff;
+    display: inline-block;
+    top: 0%;;
     }
+
+div.cabecera img {
+    width: 53px;
+    height: 53px;
+}
+
+div.cabecera ul {
+    list-style: none;
 }
