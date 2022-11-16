@@ -1,20 +1,21 @@
+/****/
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    margin: 0px;
 }
-
+/**Fondo página**/
 body {
     background-color: #ffffff;
 }
-
+/**Cabezado**/
 #header {
-    background-color: #808080;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #3f3f3f;
     color: #ffffff;
     height: 80px;
-    width: 100%;
-    left: 0%;
+    position: sticky;
     top: 0%;
-    position: fixed;
 }
 
 .nav {
@@ -22,8 +23,8 @@ body {
 }
 
 .nav ul {
-	margin: 0;
-	padding: 0;
+    margin: 0px;
+    padding: 0px;
 	list-style: none;
 	margin-left: 26px;
 }
@@ -41,25 +42,40 @@ body {
 }
 
 .nav ul li a:hover {
-    background-color: #fffa70;
+    background-color: #fcff47;
     color: #000000;
 }
 
+/**Apartado imagen**/
 .redsoc {
     float: right;
-    margin: 0;
-	padding: 0;
+}
 
+.redsoc ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-right: 26px;
+}
+
+.redsoc ul li {
+	display: inline-block;
+    line-height: 30px;
+}
+
+.redsoc ul li a {
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.redsoc ul li a:hover {
+    background-color: #fcff47;
+    color: #000000;
 }
 
 .redsoc img {
     width: 70px;
-    margin-right: 26px;
     line-height: 80px;
-
-}
-
-.redsoc img:hover {
-    background-color: #fffa70;
-
 }
