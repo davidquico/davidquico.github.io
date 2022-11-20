@@ -17,40 +17,33 @@ body {
     height: 80px;
     position: sticky;
     top: 0%;
+    display: ruby;
 }
 
 /**Apartado imagen**/
 
 .redsoc {
 	float: left;
+    margin-left: 23px;
 }
 
-.redsoc ul {
-    margin: 0px;
-    padding: 0px;
-	list-style: none;
-	margin-left: 26px;
+.redsoc div {
+    line-height: 20px;
 }
 
-.redsoc ul li {
-	display: inline-block;
-    line-height: 80px;
-}
-
-.redsoc ul li a {
-    display: block;
+.redsoc a {
+    display: inline-block;
     padding: 0px 10px;
     text-decoration: none;
     color: #ffffff;
 }
 
-.redsoc ul li a:hover {
-    background-color: #ffe647;
-    color: #000000;
-}
-
 .redsoc img {
     width: 75px;
+}
+
+.redsoc a:hover {
+    background-color: #ffe647;
 }
 
 /**Menu enlaces**/
@@ -85,8 +78,16 @@ body {
 /**CONTENIDO**/
 
 #main {
-    position: relative;
     background: white;
 	margin-left: 20%;
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
+    height: 2123px;
+}
+
+
+#footer {
+    position: fixed;
+    color: #ffffff;
+    background-color: #989090;
+    padding: 40px 20px;
 }
