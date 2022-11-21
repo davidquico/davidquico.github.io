@@ -2,7 +2,7 @@
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0px;
+    margin: 0px;/**Ajustar todo los elementos en la página entera**/
 }
 /**Fondo página**/
 body {
@@ -140,6 +140,12 @@ body {
     z-index: 75;
 }
 
-.redsoc img {
+.gith {
+    width: 59px;
+    margin: 2px;
+}
+
+.twit {
     width: 46px;
+    margin: 7px;
 }
