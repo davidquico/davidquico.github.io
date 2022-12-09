@@ -68,7 +68,7 @@
   float: left;
   width: 100%;
   background-color: #f9f9f9;
-  height: 126em;
+  height: 130em;
   padding: 65px;
   color: #000000;
 }
@@ -90,6 +90,19 @@ article > p {
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   margin: 10px 0;
+}
+
+/**Transición de enlace**/
+.en a {
+  color: #191919;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.5s linear 0.2s;
+}
+
+/**Transición enlace color cambiado**/
+.en a:hover {
+  color: #dedede;
 }
 
 
