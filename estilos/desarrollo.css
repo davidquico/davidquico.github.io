@@ -68,7 +68,7 @@
   float: left;
   width: 100%;
   background-color: #f9f9f9;
-  height: 130em;
+  height: 180em;
   padding: 65px;
   color: #000000;
 }
@@ -94,7 +94,7 @@ article > p {
 
 section > p {
   font-family: 'Quicksand', sans-serif;
-  margin: 5px 0;
+  margin: 20px 0;
 }
 
 /**Transición de enlace**/
