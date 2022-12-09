@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Estilo de archivo csss-->
+    <link rel="stylesheet" href="estilos/formulario.css" />
+    <!--Imagen en la pestaña de la página-->
+    <link rel="icon" href="https://i.pinimg.com/736x/43/fb/15/43fb151708390db59c71196dee99586d.jpg"
+        type="image/x-icon" />
+    <!--Fuente Web-->
+    <!--Enlaces-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <!--Legend-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@800&display=swap" rel="stylesheet">
+    <!--Formato a los títulos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+    <!--Formato a todos los inputs-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <!--Optgroup-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@600&display=swap" rel="stylesheet">
+    <!--Option-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@200&display=swap" rel="stylesheet">
+    <!--Footer-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300&display=swap" rel="stylesheet">
+    <title>Formulario - Pixar</title>
+</head>
+
+<body>
+    <div class="foto">
+        <img src="https://th.bing.com/th/id/R.b0c7a2ae847fb7b030c585594933e544?rik=X0L9hPR8nqMqYg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f08%2fPixar-emblem.jpg&ehk=nX2Dhxt0qVQIuFHqyUyhstkRrZ9Y4WI4g9sdbvKnH6Q%3d&risl=&pid=ImgRaw&r=0"
+            alt="fondo-pixar" />
+    </div>
+    <header id="cabecera">
+        <nav class="cont">
+            <div class="cab-con">
+                <a href="index.html" title="Visita la página de Inicio">Inicio</a>
+            </div>
+            <div class="cab-con">
+                <a href="rank.html" title="Peor a mejor película de Pixar">Ranking</a>
+            </div>
+            </div>
+            <div class="cab-con"><a href="cv.html" title="Mira el CV">CV</a></div>
+            <div class="cab-con">
+                <a href="#" title="Ya estás en la página de Formulario">Formulario</a>
+            </div>
+            <div class="cab-con">
+                <a href="desarrollo.html" title="Mira como desarrolle está página">Desarrollo</a>
+            </div>
+        </nav>
+    </header>
+    <main id="contenido">
+        <div class="div1">
+            <form action="formulariopixar.php" method="get">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <br>
+                    <p>
+                        <!--Nombre-->
+                        Nombre:
+                        <br>
+                        <input type="text" name="nombre" id="nombre" required placeholder="Introduzca tu nombre...">
+                    </p>
+                    <br>
+                    <p>
+                        <!--Apellidos-->
+                        Apellidos:
+                        <br>
+                        <input type="text" name="apellidos" required placeholder="Introduce tu apellido..." id="apellidos">
+                    </p>
+                    <br>
+                    <p>
+                        <!--Email-->
+                        Email:
+                        <br>
+                        <input type="email" name="email" required placeholder="nombre_usuario@tipo_correo" id="email" />
+                    </p>
+                    <br>
+                    <p>
+                        <!--Fecha de nacimiento-->
+                        Fecha de nacimiento:
+                        <br>
+                        <input type="date" name="fechanac">
+                    </p>
+                    <br>
+                    <p>
+                        <!--Sexo-->
+                        Sexo:
+                        <br>
+                        <input type="radio" name="hmo" value="h" required> Hombre
+                        <input type="radio" name="hmo" value="m"> Mujer
+                        <input type="radio" name="hmo" value="o"> Otro
+                    </p>
+                    <br>
+                    <p>
+                        <!--Numero teléfono-->
+                        Número teléfono:
+                        <br>
+                        <input type="tel" name="telefono" maxlength="9" placeholder="Introduzca tu nº de telefono"
+                            id="tel">
+                    </p>
+                    <br>
+                    <p>
+                        <!--Pagina web-->
+                        Página web
+                        <br>
+                        <input type="url" id="pagina-web" name="pagina-web" placeholder="En caso de que tengas...">
+                    </p>
+                    <br>
+                    <p>
+                        DNI:
+                        <br>
+                        <input type="text" id="dni" name="dni" maxlength="8" placeholder="Introduzca su DNI...">
+                    </p>
+                    <br>
+                    <p>
+                        Sube una foto de ti mismo
+                        <br>
+                        <input type="file" name="archivo" id="archivo">
+                    </p>
+                    <br>
+                </fieldset>
+        </div>
+        <div class="div2">
+            <fieldset>
+                <legend>¿Qué sabes de Pixar?</legend>
+                <br>
+                <p>
+                    ¿Qué se te da mejor?
+                    <br>
+                    <select name="Caract">
+                        <option selected></option>
+                        <optgroup label="Aspecto visual">
+                            <option>Animación 3D</option>
+                            <option>Diseño de personajes</option>
+                            <option>Realizar storyboard</option>
+                            <option>Artista de fondos</option>
+                        </optgroup>
+                        <optgroup label="Asepcto narrativo">
+                            <option>Dirección</option>
+                            <option>Escribir guión</option>
+                            <option>Dar ideas</option>
+                            <option>Realizar historia</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                </p>
+                <br>
+                <p>
+                    En caso de que hayas respondido, como consideras tu <strong>nivel</strong> en lo que elejiste:<br>
+                    <input type="range" name="Caract">
+                </p>
+                <br>
+                <p>
+                    Pelicula de Pixar favorita:
+                    <br>
+                    <input type="text" name="pixfav">
+                    <br>
+                    Clasificalo del 0 al 10:
+                    <br>
+                    <input type="range" name="pixfav" min="0" max="10">
+                    <br>
+                </p>
+                <br>
+                <p>Le gustaría comentar algo:
+                    <br>
+                    <textarea name="comentario" rows="10" cols="60"
+                        placeholder="Comente algo sobre Pixar..."></textarea>
+                </p>
+                <br>
+            </fieldset>
+        </div>
+        <div class="div3">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            </form>
+        </div>
+    </main>
+    <!--Footer-->
+    <footer id="abajo">
+        <div class="red-soc">
+            <a href="https://github.com/davidquico">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="github-icon">
+            </a>
+            <a href="https://twitter.com/DQuicoc">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="twitter-icon">
+            </a>
+            <a href="https://www.instagram.com/_david_quicoc_/">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="instagram-icon">
+            </a>
+            <a href="https://open.spotify.com/user/31arp47id6hg7dolxqt57h7uz47y">
+                <img src="https://cdn-icons-png.flaticon.com/512/185/185974.png" alt="spotify-icon">
+            </a>
+            <p>
+                Página desarrollada por David Q.
+            </p>
+            <p>
+                Aplicaciones Web
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

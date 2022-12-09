@@ -1,0 +1,388 @@
+/**Selector universal**/
+* {
+  /**Espacio interior e exterior al 0**/
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/**Div - Foto arriba del header**/
+.foto {
+  text-align: center;
+}
+
+/**Cambiar anchura de la imagen en el div foto**/
+.foto img {
+  width: 33%;
+}
+
+/**Header con id cabecera**/
+#cabecera {
+  float: left;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/**Nav clase cont**/
+.cont {
+  background-color: #191919;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  top: 0px;
+  /**Fuente web - Enlaces**/
+  font-family: "Rubik", sans-serif;
+}
+
+/**Configurar los div que se encuentran dentro de la nav de clase cont**/
+.cont>div {
+  display: inline-block;
+  font-size: 28px;
+  padding: 12px;
+  width: 15%;
+  background-color: #191919;
+}
+
+/**Linea horizontal al posicionar ratón en letra**/
+/**Configurar del div de clase cab-con los enlaces**/
+
+/**Transición color original**/
+.cab-con a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.5s linear 0.2s;
+}
+
+/**Transición color cambiado**/
+.cab-con a:hover {
+  color: #979797;
+}
+
+/**Menu de navegación**/
+#menu {
+  float: left;
+  background-color: #191919;
+  color: #ffffff;
+  width: 18%;
+  display: block;
+  height: 870em;
+  padding: 20px;
+}
+
+/**Configurar margen superior interior de los div del nav de clase cont.menu de un id main de nombre menu**/
+#menu .cont-menu div {
+  padding-top: 4px;
+}
+
+/**Hacer div almacenador sticky**/
+.cont-menu {
+  top: 3%;
+  position: sticky;
+  position: -webkit-sticky;
+}
+
+/**<span> Mdificar fuente y tamaño**/
+/**Indice**/
+.let-ind {
+  font-size: 28px;
+  /**Fuente web - Letra Indice**/
+  font-family: "Karla", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/**Indice primario**/
+.prim-ind {
+  padding: 5px;
+  font-size: 19px;
+  /**Fuente web - Prim Indice**/
+  font-family: "DM Sans", sans-serif;
+}
+
+/**Sub-Indice**/
+.sub-ind {
+  padding: 5px;
+  margin-left: 20px;
+  font-size: 14px;
+  /**Fuente web - Sub Indice**/
+  font-family: "Karla", sans-serif;
+}
+
+/**Transición - color original**/
+#menu a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.5s linear 0.2s;
+}
+
+/**Transición - cambio de color**/
+#menu a:hover {
+  color: #979797;
+}
+
+/**Página**/
+#contenido {
+  float: left;
+  width: 82%;
+  background-color: #f9f9f9;
+  height: 870em;
+  padding: 65px;
+  color: #000000;
+}
+
+/**articulo de advertencia**/
+.sadv {
+  text-align: center;
+}
+
+/**Modificar encabezado nivel 2 (h2) del articulo de clase sadv**/
+.sadv h2 {
+  margin-bottom: 5px;
+  /**Advertencia h2**/
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/**Modificar encabezado nivel 3 (h3) del articulo de clase sadv**/
+.sadv h3 {
+  margin-top: 5px;
+  /**Advertencia h3**/
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/**Modificar imagen del articulo de clase sadv**/
+.sadv img {
+  margin: 20px auto;
+  width: 25%;
+}
+
+/**Fuentes Web**/
+/**Fuente Web para textos introducción**/
+
+/**Dentro de cada section modificar el encabezado de nivel 2 (h2)**/
+section>h2 {
+  font-size: 2.5em;
+  /**Encabezado h2**/
+  font-family: 'DM Sans', sans-serif;
+}
+
+/**Dentro de cada section modificar el parrafo**/
+section>p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+/**Dentro de cada article modificar el parrafo**/
+article>p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+}
+
+/**Dentro de cada section modificar el encabezado de nivel 3 (h3)**/
+section>h3 {
+  font-family: 'Heebo', sans-serif;
+  font-size: 2em;
+}
+
+/**Modificar la lista no ordenada**/
+ul {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  margin-left: 35px;
+}
+
+/**Dentro de cada article modificar el encabezado de nivel 3 (h3)**/
+article>h3 {
+  font-family: 'Outfit', sans-serif;
+  font-size: 22px;
+}
+
+/**Contenido en el main**/
+/**Margenes interiores o exteriores**/
+/**Encabezado de nivel 3 (h3)**/
+h3 {
+  margin: 10px 0px;
+}
+
+/**Section1**/
+/**Imagen**/
+.sec1 img {
+  margin: 20px 30%;
+}
+
+/**parrafo**/
+.sec1 p {
+  margin: 25px 0px;
+}
+
+/**Section2**/
+/**Encabezado de nivel 2 (h3)**/
+.sec2 h2 {
+  margin: 30px 0px;
+}
+
+/**Imagen**/
+.sec2 img {
+  margin: 20px 30%;
+}
+
+/**Parrafo**/
+.sec2 p {
+  margin: 25px 0px;
+}
+
+/**Section3**/
+/**Encabezado de nivel 2 (h2)**/
+.sec3 h2 {
+  margin-top: 30px;
+}
+
+/**Encabezado de nivel 3 (h3)**/
+.sec3 h3 {
+  margin-top: 20px;
+}
+
+/**Modificar los parrafos de los articles**/
+.sec3 article>p {
+  margin: 25px 0px;
+}
+
+/**Lista no ordenada**/
+.sec3 ul {
+  margin: 20px 30px;
+}
+
+/**Todas las img con clase**/
+.img-1 {
+  margin: 20px 13%;
+  width: 70%;
+}
+
+.img-2 {
+  margin: 20px 20%;
+  width: 55%;
+}
+
+.img-3 {
+  margin: 20px 30%;
+  width: 40%;
+}
+
+.img-4 {
+  margin: 20px 20%;
+  width: 55%;
+}
+
+.img-5 {
+  margin: 20px 25%;
+  width: 45%;
+}
+
+.img-6 {
+  margin: 20px 25%;
+  width: 50%;
+}
+
+.img-7 {
+  margin: 20px 20%;
+  width: 60%;
+}
+
+.img-8 {
+  margin: 20px 20%;
+  width: 60%;
+}
+
+.img-9 {
+  margin: 20px 25%;
+  width: 50%;
+}
+
+/**Section4**/
+/**Encabezado de nivel 2 (h2)**/
+.sec4 h2 {
+  margin: 20px 0;
+}
+
+/**Imagen**/
+.sec4 img {
+  width: 35%;
+  margin: 20px 35%;
+}
+
+/**Sec4 - Articulo forml-intr**/
+.forml-intr {
+  margin: 20px 0;
+}
+
+/**Sec4 - Articulo forml-intr - parrafo**/
+.forml-intr p {
+  margin: 20px 0;
+}
+
+/**Sec4 - articulo reglas**/
+.reglas {
+  margin: 10px 0 10px 3%;
+}
+
+/**Sec4 - Articulo reglas - articulos todos en general**/
+.reglas article {
+  margin: 20px 0;
+}
+
+/**Sec 4 - Articulo reglas - parrafo**/
+.reglas p {
+  margin: 5px 0;
+}
+
+/**section5**/
+.sec5 {
+  margin: 20px 0px;
+}
+
+/**section5 - encabezado de nivel 2 (h2)**/
+.sec5 h2 {
+  margin: 20px 0;
+}
+
+/**section5 - parrafo**/
+.sec5 p {
+  margin: 20px 0;
+}
+
+/**iframes**/
+iframe {
+  margin: 40px;
+}
+
+/**Footer**/
+#abajo {
+  float: left;
+  background-color: #191919;
+  width: 100%;
+  height: 14em;
+  text-align: center;
+  color: #ffffff;
+  /**Footer**/
+  font-family: 'Kantumruy Pro', sans-serif;
+}
+
+/**div red-soc**/
+.red-soc {
+  margin: 2em;
+}
+
+/**Parrafo del div red-soc**/
+.red-soc p {
+  margin: 15px;
+  font-size: 20px;
+}
+
+/**Imagen de red-soc**/
+.red-soc img {
+  width: 2.3%;
+  margin: 2px;
+}

@@ -1,0 +1,208 @@
+/**Selector universal**/
+* {
+  /**Espacio interior e exterior al 0**/
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/**Div - Foto arriba del header**/
+.foto {
+  text-align: center;
+}
+
+/**Cambiar anchura de la imagen en el div foto**/
+.foto img {
+  width: 33%;
+}
+
+/**Header con id cabecera**/
+#cabecera {
+  float: left;
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/**Nav clase cont**/
+.cont {
+  background-color: #191919;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  top: 0px;
+  /**Fuente web - Enlaces**/
+  font-family: "Rubik", sans-serif;
+}
+
+/**Configurar los div que se encuentran dentro de la nav de clase cont**/
+.cont>div {
+  display: inline-block;
+  font-size: 28px;
+  padding: 12px;
+  width: 15%;
+  background-color: #191919;
+}
+
+/**Linea horizontal al posicionar ratón en letra**/
+/**Configurar del div de clase cab-con los enlaces**/
+
+/**Transición color original**/
+.cab-con a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.5s linear 0.2s;
+}
+
+/**Transición color cambiado**/
+.cab-con a:hover {
+  color: #979797;
+}
+
+/**Página**/
+#contenido {
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  background-color: #8798c0;
+  height: 100em;
+  color: #000000;
+}
+
+/**div de clase tamaño**/
+.tamaño {
+  margin: 7em;
+}
+
+/**id tabla**/
+#tabla1 {
+  background-color: #6689dc;
+  color: #ffffff;
+  width: 100%;
+  height: 5em;
+}
+
+/**id tr posicionamiento floatante izquierdo**/
+#izq {
+  float: left;
+  margin-top: 3%;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 3em;
+}
+
+/**id tr posicionamiento flotante derecho**/
+#der {
+  text-align: right;
+  float: right;
+  margin-top: 3%;
+  /**Fuente id - der**/
+  font-size: 14px;
+  font-family: 'Gafata', sans-serif;
+}
+
+/**id de segunda tabla**/
+#tabla2 {
+  margin: 10px;
+  background-color: #c7d5f4;
+}
+
+/**Margen exterior de lista no ordenada**/
+#tabla2 ul {
+  margin: 20px;
+}
+
+/**Color y fondo de caption**/
+caption {
+  background-color: #354f8b;
+  color: #ffffff;
+}
+
+/**Imagen**/
+.lamp {
+  width: 30%;
+  float: left;
+  margin-top: -110px;
+  margin-left: 25%;
+}
+
+/**td clase tit-c, funcionando como titulo de cada apartado**/
+.tit-c {
+  border: 2px #ffffff solid;
+  border-radius: 7px;
+  background-color: #ffffff;
+}
+
+/**Clas info td**/
+.info {
+  border: 0px;
+  background-color: #dce6ff;
+  padding: 10px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+/**Modificar texto en el que se encuentre dentro del span de clase text-tit**/
+span.text-tit {
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+
+/**Lista no ordenada margen interior a la izquierda**/
+ul {
+  padding-left: 15px;
+}
+
+/**Fuentes Web extra**/
+/**ul clase list**/
+.list {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/**Todos los h1**/
+h1 {
+  font-family: "DM Sans", sans-serif;
+}
+
+/**Todos los h2**/
+h2 {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/**Todos los h5**/
+h5 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/**Footer**/
+#abajo {
+  float: left;
+  background-color: #191919;
+  width: 100%;
+  height: 14em;
+  text-align: center;
+  color: #ffffff;
+  /**Footer**/
+  font-family: 'Kantumruy Pro', sans-serif;
+}
+
+/**div red-soc**/
+.red-soc {
+  margin: 2em;
+}
+
+/**Parrafo del div red-soc**/
+.red-soc p {
+  margin: 15px;
+  font-size: 20px;
+}
+
+/**Imagen de red-soc**/
+.red-soc img {
+  width: 2.3%;
+  margin: 2px;
+}
