@@ -92,6 +92,11 @@ article > p {
   margin: 10px 0;
 }
 
+section > p {
+  font-family: 'Quicksand', sans-serif;
+  margin: 5px 0;
+}
+
 /**Transición de enlace**/
 .en a {
   color: #191919;
