@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="David-Quico" />
+  <!--Título de la página-->
+  <title>Formulario</title>
+  <!--ICONO DE LA PÁGINA-->
+  <link rel="shortcut icon" href="img/logo-menu.png" />
+  <!--GOOGLE FONT-->
+  <!--Mukta Encabezados y Títulos-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet" />
+  <!--Average_Sans Parrafos y demás-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet" />
+  <!--CSS-->
+  <link rel="stylesheet" href="css/formulario.css" />
+  <!--FONTAWESOME-->
+  <!--Iconos redes sociales-->
+  <script src="https://kit.fontawesome.com/2ec74f0962.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!--HEADER-->
+  <header id="header">
+    <!--Logo-->
+    <a href="index.html" class="logo">
+      <img src="img/logo-menu.png" alt="logo de la página" />
+      <h2>David Quico</h2>
+    </a>
+    <!--Menú header-->
+    <nav class="menu">
+      <a href="index.html" class="menu-link">Inicio</a>
+      <a href="cv.html" class="menu-link">cv</a>
+      <a href="formulario.html" class="menu-link">Formulario</a>
+      <a href="medios.html" class="menu-link">Medios</a>
+    </nav>
+  </header>
+  <!--MAIN-->
+  <main id="main">
+    <!--Texto entrante-->
+    <h2 class="text-form">¿Hablamos?</h2>
+    <section>
+      <!--Formulario-->
+      <form action="formulariodavid.php" method="get">
+        <article>
+          <!--Acerca Formulario-->
+          <fieldset>
+            <legend>Acerca de ti...</legend>
+            <h4 class="info-function">
+              Nombre: <span class="required-symbol">*</span>
+            </h4>
+            <input type="text" name="nombre" id="nombre" required placeholder="Su nombre" /><br />
+            <h4 class="info-function">
+              Apellidos: <span class="required-symbol">*</span>
+            </h4>
+            <input type="text" name="apellido" id="apellido" required placeholder="Su apellido" /><br />
+            <h4 class="info-function">
+              Email: <span class="required-symbol">*</span>
+            </h4>
+            <input type="email" name="email" id="email" required placeholder="ejemplo@correo" /><br />
+            <h4 class="info-function">Número teléfono:</h4>
+            <input type="tel" name="tel" id="tel" maxlength="9" placeholder="número-teléfono" /><br />
+            <h4 class="info-function">
+              Sexo: <span class="required-symbol">*</span>
+            </h4>
+            <input type="radio" name="hmo" value="h" required /><span class="radio-text">Hombre</span>
+            <input type="radio" name="hmo" value="m" /><span class="radio-text">Mujer</span>
+            <input type="radio" name="hmo" value="o" /><span class="radio-text">Otro</span>
+            <br /><br />
+            <h4 class="info-function">Color preferido:</h4>
+            <input type="color" name="colorprefer" /><br />
+            <h4 class="info-function">Fecha de nacimiento:</h4>
+            <input type="date" name="fechanac" />
+            <br /><br />
+          </fieldset>
+        </article>
+        <article>
+          <!--Página Formulario-->
+          <fieldset>
+            <legend>Acerca de la página...</legend>
+            <h4 class="info-function">Página web:</h4>
+            <input type="url" name="pagina-web" placeholder="En caso de que tengas..." />
+            <br />
+            <h4 class="info-function">¿Algún error en la página?</h4>
+            <input type="checkbox" name="error1" /><span class="checkbox-text">No aparecen imágenes o
+              textos...</span><br />
+            <input type="checkbox" name="error2" /><span class="checkbox-text">No fue accesible en algunos
+              navegadores...</span><br />
+            <input type="checkbox" name="none" /><span class="checkbox-text">Ninguno...</span><br />
+            <h4 class="info-function">Califica mi página del 1 al 10</h4>
+            <input type="range" name="califpag" min="0" max="10" /><br />
+            <br />
+          </fieldset>
+        </article>
+        <article>
+          <!--Información Formulario-->
+          <fieldset>
+            <legend>Cuentame...</legend>
+            <h4 class="info-function">
+              Asunto: <span class="required-symbol">*</span>
+            </h4>
+            <input type="text" name="asunto" id="asunto" required />
+            <h4 class="info-function">
+              Dejame un mensaje: <span class="required-symbol">*</span>
+            </h4>
+            <textarea name="mensaje" id="mensaje" required cols="50" rows="7"
+              placeholder="Comenta lo que quieras..."></textarea><br />
+          </fieldset>
+        </article>
+        <!--Contenedor de botones-->
+        <div class="action-button">
+          <fieldset>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+          </fieldset>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer id="footer">
+    <!--Texto de footer-->
+    <p>Copyright © 2023 David Manuel</p>
+    <!--Iconos fontawesome-->
+    <div class="social-media">
+      <a href="https://twitter.com/_pitos_"><i class="fa-brands fa-twitter"></i></a>
+      <a href="https://www.instagram.com/_david_quicoc_/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://github.com/davidquico"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/david-manuel-quico-cuya/"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
