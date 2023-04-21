@@ -1,0 +1,276 @@
+/*Configuración global*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/*Google Fonts*/
+/*Mukta Encabezados y Títulos*/
+h1,h2,h3,h4,h5,h6,table,legend {
+    font-family: 'Mukta', sans-serif;
+}
+/*Average Sans Párrafos y demás*/
+p,ul,li,a,span,textarea,input {
+    font-family: 'Average Sans', sans-serif;
+}
+
+/*HEADER*/
+#header {
+    width: 100%;
+    background: #4d4e5e;
+    position: relative;
+}
+
+/*Logo*/
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 55px;
+    transition: 0.5s;
+}
+
+.logo img:hover {
+    width: 60px;
+}
+
+.logo h2 {
+    color: #70acb1;
+    padding-left: 10px;
+    font-size: 2.5em;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.logo h2:hover {
+    color: #ffffff;
+}
+
+/*Menú header*/
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.38em;
+    transition: 0.3s;
+}
+
+.menu-link:hover {
+    color: #70acb1;
+}
+
+/*MAIN*/
+#main {
+    background: url(../img/form-page.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    width: 100%;
+}
+
+/*CONFIGURACIONES SIN Y CON CLASE O ID*/
+/*Márgenes y más...*/
+section {
+    padding: 1.2em 0;
+    width: 70%;
+    margin: 0 auto;
+}
+
+article {
+    padding: 0.6em 0;
+    background: #70ACB1AB;
+    margin: 0 auto;
+    width: 70%;
+}
+
+legend {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+input {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/*CONFIGURACIONES ADICIONALES*/
+/*Texto entrante*/
+.text-form {
+    color: #4d4e5e;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+/*Simbolo requerido*/
+.required-symbol {
+    color: #ff0000;
+}
+
+/*Colores y alineación*/
+fieldset,p,input,textarea {
+    color: #ffffff;
+    text-align: center;
+}
+
+/*Texto input marcador*/
+input::placeholder {
+    color: #5a5a5a;
+}
+
+/*Border fieldset*/
+fieldset {
+    border: 1.2px solid #ffffff;
+}
+
+/*Fondo y colores*/
+input,textarea {
+    background: #ffffff00;
+    color: #ffffff;
+    border-top: 0px solid #ffffff;
+    border-left: 0px solid #ffffff;
+    border-right: 0px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+/*Etiqueta formulario*/
+.info-function {
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+
+/*Inputs*/
+/*Textos*/
+input[type=text] {
+    width: 15em;
+}
+
+/*Email y URL*/
+input[type="email"],
+input[type="url"] {
+    width: 20em;
+}
+
+/*ID tel de input[type="tel"]*/
+#tel {
+    width: 7em;
+}
+
+/*Color*/
+input[type="color"] {
+    border: 1.6px dashed #4d4e5e;
+    width: 8em;
+    height: 3.2em;
+    padding: 5px;
+}
+
+/*Checkbox y Radio*/
+input[type="checkbox"],input[type="radio"] {
+    height: 10px;
+}
+
+/*Texto en input de tipo radios y checkbox*/
+.radio-text,
+.checkbox-text {
+    font-size: 14px;
+}
+
+/*Día*/
+input[type="date"] {
+    width: 10em;
+    margin: 1px 0;
+    padding: 2px 0;
+}
+
+/*Elemento div contenedor de botones*/
+div.action-button {
+    margin: 20px auto;
+    width: 25%;
+    padding: 1em;
+}
+
+/*Boton accion formulario tipo Enviar y Reseteo*/
+input[type="submit"],input[type="reset"] {
+    border: 1px solid #ffffff;
+    padding: 15px 30px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover {
+    cursor: pointer;
+    background: #ffffff8c;
+}
+
+/*FOOTER*/
+#footer {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background: #4d4e5e;
+    color: #ffffff;
+    width: 100%;
+    min-height: 80px;
+    flex-direction: column;
+    display: flex;
+}
+
+#footer p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+/*Redes sociales posición*/
+.social-media {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/*Clases de las redes sociales*/
+/*Clase en general*/
+.fa-brands {
+    font-size: 20px;
+    padding: 5px;
+    color: #70acb1;
+    transition: 0.5s;
+}
+
+.fa-twitter:hover {
+    color: #1d9bf0;
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+}
+
+.fa-github:hover {
+    color: #000000;
+}
+
+.fa-linkedin-in:hover {
+    color: #0e76a8;
+}

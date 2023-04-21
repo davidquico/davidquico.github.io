@@ -1,0 +1,308 @@
+/*Configuración global*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/*Google Fonts*/
+/*Mukta Encabezados y Títulos*/
+h1,h2,h3,h4,h5,h6,table,legend {
+    font-family: 'Mukta', sans-serif;
+}
+/*Average Sans Párrafos y demás*/
+p,ul,li,a,span,textarea,input {
+    font-family: 'Average Sans', sans-serif;
+}
+
+/*HEADER*/
+#header {
+    width: 100%;
+    background: #4d4e5e;
+    position: relative;
+}
+
+/*Logo*/
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 55px;
+    transition: 0.5s;
+}
+
+.logo img:hover {
+    width: 60px;
+}
+
+.logo h2 {
+    color: #70acb1;
+    padding-left: 10px;
+    font-size: 2.5em;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.logo h2:hover {
+    color: #ffffff;
+}
+
+/*Menú header*/
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.38em;
+    transition: 0.3s;
+}
+
+.menu-link:hover {
+    color: #70acb1;
+}
+
+/*MAIN*/
+#main {
+    position: relative;
+    padding: 5em;    
+    width: 100%;
+    background: url(../img/menu-page.png);
+    background-position: -30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*CONFIGURACIONES SIN Y CON CLASE O ID*/
+/*Márgenes y más...*/
+section {
+    padding: 1.2em;
+}
+
+td > h2 {
+    font-size: 2.5em;
+    padding: 15px 0;
+}
+
+td > h3 {
+    font-size: 1.7em;
+    padding: 10px 0;
+}
+
+td > p {
+    font-size: 1.1em;
+    padding: 5px 0;
+    text-align: justify;
+}
+
+td > ul,ol,li {
+    font-size: 1.03em;
+    padding: 3px 0;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+/*CONFIGURACIONES ADICIONALES*/
+/*Contenedor de la tabla entera*/
+section {
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 1.2em;
+}
+
+/*Tabla inicial*/
+#table-info {
+    padding: 5px;
+    width: 25%;
+    color: #4d4e5e;
+    text-align: justify;
+}
+
+/*Simbolos de la tabla*/
+.fa-location-dot,.fa-phone,.fa-envelope {
+    color: #4d4e5e;
+}
+
+/*Tecto de los iconos*/
+.text-symbol {
+    padding-left: 2px;
+}
+
+/*Tabla presencial*/
+#table-start {
+    border-left: 3px dashed #E4405F;
+    border-right: 3px dashed #E4405F;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Celda nombre*/
+.start-name {
+    padding: 20px;
+    font-size: 2.5em;
+    width: 80%;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+/*Celda imagen*/
+.start-image {
+    width: 20%;
+    text-align: right;
+}
+
+.start-image img {
+    width: 28em;
+    padding: 40px;
+    margin-right: 4em;
+    border-radius: 100%;
+}
+
+/*Tabla información*/
+#table-introduction {
+    background: #e5e5e5;
+    width: 100%;
+    border-left: 3px dashed #E4405F;
+    border-right: 3px dashed #E4405F;
+}
+
+/*Celda verde*/
+.first-introduction {
+    background: #70acb1;
+    width: 40%;
+    float: left;
+    margin-left: 5em;
+}
+
+/*Celda gris*/
+.second-introduction {
+    background: #4d4e5e;
+    width: 40%;
+    float: left;
+    margin-left: 5em;
+}
+
+/*Información a primera celda*/
+.first-introduction-info {
+    background: #ffffff;
+    width: 40%;
+    height: 47em;
+    float: left;
+    margin-left: 5em;
+}
+
+/*Lista no ordenada*/
+.list {
+    margin-left: 40%;
+}
+
+/*Clases del apartado de fomración*/
+/*Año*/
+.year {
+    padding: 4px;
+    font-weight: bold;
+}
+
+/*Centro escolar*/
+.center {
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+/*Cursos*/
+.curse {
+    padding: 3px;
+}
+
+/*Centrar elementos HTML de la primera celda*/
+.first-introduction-info > h3,
+.first-introduction-info > p {
+    text-align: center;
+}
+
+/*Información a segunda celda*/
+.second-introduction-info {
+    background: #ffffff;
+    width: 40%;
+    height: 47em;
+    float: left;
+    margin-left: 5em;
+}
+
+/*Centrar elementos HTML de la segunda celda*/
+.second-introduction-info > h3,
+.second-introduction-info > h5,
+.second-introduction-info > p {
+    text-align: center;
+}
+
+/*Encabezado n5*/
+h5 {
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+/*FOOTER*/
+#footer {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background: #4d4e5e;
+    color: #ffffff;
+    width: 100%;
+    min-height: 80px;
+    flex-direction: column;
+    display: flex;
+}
+
+#footer p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+/*Redes sociales div*/
+.social-media {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/*Clases de las redes sociales*/
+/*Clase en general*/
+.fa-brands {
+    font-size: 20px;
+    padding: 5px;
+    color: #70acb1;
+    transition: 0.5s;
+}
+
+/*clases de cada red social al posicionar el puntero*/
+.fa-twitter:hover {
+    color: #1d9bf0;
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+}
+
+.fa-github:hover {
+    color: #000000;
+}
+
+.fa-linkedin-in:hover {
+    color: #0e76a8;
+}
