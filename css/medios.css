@@ -1,0 +1,273 @@
+/*Configuración global*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/*Google Fonts*/
+/*Mukta Encabezados y Títulos*/
+h1,h2,h3,h4,h5,h6,table,legend {
+    font-family: 'Mukta', sans-serif;
+}
+/*Average Sans Párrafos y demás*/
+p,ul,li,a,span,textarea,input {
+    font-family: 'Average Sans', sans-serif;
+}
+
+/*HEADER*/
+#header {
+    width: 100%;
+    background: #4d4e5e;
+    position: relative;
+}
+
+/*Logo*/
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.logo img {
+    width: 55px;
+    transition: 0.5s;
+}
+
+.logo img:hover {
+    width: 60px;
+}
+
+.logo h2 {
+    color: #70acb1;
+    padding-left: 10px;
+    font-size: 2.5em;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.logo h2:hover {
+    color: #ffffff;
+}
+
+/*Menú header*/
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.38em;
+    transition: 0.3s;
+}
+
+.menu-link:hover {
+    color: #70acb1;
+}
+
+/*NAV*/
+#nav {
+    float: right;
+    background: #70acb1;
+    width: 25%;
+    padding: 20px;
+    text-align: justify;
+    height: 343em;
+}
+
+/*Indice sticky contenedor*/
+.nav-sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 2em;
+    left: 0;
+}
+
+/*Título del índice*/
+.nav-title {
+    text-transform: uppercase;
+    font-size: 2.2em;
+    font-weight: 100;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/*Estilo que tendra la lista*/
+.nav-menu {
+    list-style: none;
+}
+
+/*<li> primario*/
+.prim-link {
+    padding-bottom: 5px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+/*<li> secundario*/
+.second-link {
+    padding-top: 2px;
+    font-size: 1.25em;
+    margin-left: 0.99em;
+    font-weight: 400;
+}
+
+/*<li> terciario*/
+.third-link {
+    padding-top: 4px;
+    font-size: 0.99em;
+    margin-left: 1.6em;
+    font-weight: 300;
+}
+
+/*Enlaces de <li>*/
+.nav-menu li a {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.nav-menu li a:hover {
+    color: #ffffff;
+}
+
+/*MAIN*/
+#main {
+    background: #ffffff;
+    padding: 40px;
+    float: left;
+    width: 75%;
+}
+
+/*CONFIGURACIONES SIN Y CON CLASE O ID*/
+/*Márgenes y más...*/
+section {
+    padding: 1.2em 0;
+}
+
+article {
+    padding: 0.6em 0;
+}
+
+section > h2 {
+    font-size: 2.5em;
+    padding: 15px 0;
+}
+
+article > h3 {
+    font-size: 1.7em;
+    padding: 10px 0;
+}
+
+article > p {
+    font-size: 1.1em;
+    padding: 5px 0;
+    text-align: justify;
+}
+
+li {
+    font-size: 1.03em;
+    padding: 5px 0;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+/*CONFIGURACIONES ADICIONALES*/
+/*Todos los enlaces*/
+p > a {
+    color: #70acb1;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+p > a:hover {
+    color:#4249ac;
+    letter-spacing: 0.3px;
+}
+
+/*CAJAS*/
+#box {
+    border: 0.3em solid #4d4e5e;
+    border-radius: 0.5em;
+    width: 50em;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+/*Tamaño de iframe*/
+.box-iframe {
+    width: 45em;
+    height: 25em;
+    margin: 0 auto;
+    padding: 20px 15px 0px 15px;
+    display: block;
+}
+
+/*Parrafo de clase question de las cajas iframe*/
+.video-timer {
+    color: #abaaaa;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    font-weight: lighter;
+}
+
+/*FOOTER*/
+#footer {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background: #4d4e5e;
+    color: #ffffff;
+    width: 100%;
+    min-height: 80px;
+    flex-direction: column;
+    display: flex;
+}
+
+#footer p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+/*Redes sociales div*/
+.social-media {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/*Clases de las redes sociales*/
+/*Clase en general*/
+.fa-brands {
+    font-size: 20px;
+    padding: 5px;
+    color: #70acb1;
+    transition: 0.5s;
+}
+
+/*clases de cada red social al posicionar el puntero*/
+.fa-twitter:hover {
+    color: #1d9bf0;
+}
+
+.fa-instagram:hover {
+    color: #E4405F;
+}
+
+.fa-github:hover {
+    color: #000000;
+}
+
+.fa-linkedin-in:hover {
+    color: #0e76a8;
+}
