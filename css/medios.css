@@ -211,15 +211,6 @@ p > a:hover {
     display: block;
 }
 
-/*Parrafo de clase question de las cajas iframe*/
-.video-timer {
-    color: #abaaaa;
-    font-size: 14px;
-    text-align: center;
-    padding: 2px 0px 2px 0px;
-    font-weight: lighter;
-}
-
 /*FOOTER*/
 #footer {
     text-align: center;
