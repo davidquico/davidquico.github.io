@@ -129,7 +129,7 @@ textarea {
 }
 
 /*Colores y alineación*/
-fieldset,p,input,textarea {
+fieldset,input,textarea {
     color: #ffffff;
     text-align: center;
 }
@@ -161,7 +161,7 @@ input,textarea {
     padding: 5px 0;
 }
 
-/*Inputs*/
+/*INPUTS*/
 /*Textos*/
 input[type=text] {
     width: 15em;
