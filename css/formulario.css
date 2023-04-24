@@ -75,6 +75,7 @@ p,ul,li,a,span,textarea,input {
 
 /*MAIN*/
 #main {
+    position: relative;
     background: url(../img/form-page.png);
     background-position: center;
     background-repeat: no-repeat;
